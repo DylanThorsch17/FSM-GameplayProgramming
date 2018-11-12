@@ -51,6 +51,25 @@ void Player::handleInput(Input in)
 		//std::cout << "Player Swording" << std::endl;
 		m_state.swording();
 		break;
+	case Input::Action::SHOVEL:
+		//std::cout << "Player Swording" << std::endl;
+		m_state.shoveling();
+		break;
+
+	case Input::Action::HAMMER:
+		//std::cout << "Player Swording" << std::endl;
+		m_state.hammering();
+		break;
+
+	case Input::Action::WALKLEFT:
+		//std::cout << "Player Swording" << std::endl;
+		m_state.walkleft();
+		break;
+
+	case Input::Action::WALKRIGHT:
+		//std::cout << "Player Swording" << std::endl;
+		m_state.walkright();
+		break;
 	default:
 		break;
 	}

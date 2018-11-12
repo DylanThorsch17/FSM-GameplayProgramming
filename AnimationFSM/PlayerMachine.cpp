@@ -47,3 +47,23 @@ void PlayerFSM::swording()
 {
 	m_current->swording(this);
 }
+
+void PlayerFSM::shoveling()
+{
+	m_current->shoveling(this);
+}
+
+void PlayerFSM::hammering()
+{
+	m_current->hammering(this);
+}
+
+void PlayerFSM::walkleft()
+{
+	m_current->walkleft(this);
+}
+
+void PlayerFSM::walkright()
+{
+	m_current->walkright(this);
+}

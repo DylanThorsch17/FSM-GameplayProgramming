@@ -12,7 +12,11 @@ public:
 		UP,
 		LEFT,
 		RIGHT,
-		SWORD
+		SWORD,
+		SHOVEL,
+		HAMMER,
+		WALKLEFT,
+		WALKRIGHT
 	};
 
 	void setCurrent(Action);

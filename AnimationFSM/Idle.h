@@ -13,6 +13,10 @@ public:
 	void jumping(PlayerFSM* a);
 	void climbing(PlayerFSM* a);
 	void swording(PlayerFSM* a);
+	void shoveling(PlayerFSM* a);
+	void hammering(PlayerFSM* a);
+	void walkleft(PlayerFSM* a);
+	void walkright(PlayerFSM* a);
 };
 
 #endif // !IDLE_H

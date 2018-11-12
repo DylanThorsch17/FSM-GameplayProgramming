@@ -12,4 +12,4 @@ public:
 	void jumping(PlayerFSM* a);
 };
 
-#endif // !IDLE_H
+#endif // !CLIMBING_H
